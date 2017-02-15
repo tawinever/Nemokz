@@ -1,0 +1,31 @@
+.heightopt {height:150px !important;}
+.paym  td{padding:10px}
+.file_upload input[type=file]{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 1px;
+    transform: scale(20);
+    letter-spacing: 10em;     /* IE 9 fix */
+    -ms-transform: scale(20); /* IE 9 fix */
+    opacity: 0;
+    cursor: pointer;
+	display:none;
+}
+
+.file_upload > div{
+    display:none;     /* example */
+}
+
+.file_upload{
+    position: relative;
+    overflow: hidden;
+    font-size: 1em;        /* example */
+    height: 40px;           /* example */
+    line-height: 2em       /* the same as height */
+}
+
+textarea:focus, input:focus{
+	outline: none;
+}

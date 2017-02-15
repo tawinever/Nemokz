@@ -1,0 +1,231 @@
+.pos-reports .header{
+    background-color: #666666;
+    width: 100%;
+    height: 30px;
+	position: relative;
+}
+
+.pos-reports .row-padding-top {
+    clear:both;
+    width: 30%;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 0px;
+    border: 1px solid #ccc;
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+
+.pos-reports .select_duration{
+    width: auto;
+    float: left;
+	width: 31%;
+}
+
+.pos-reports .warning {
+    background-color: #ffebcc;
+    border-bottom: 1px solid #ff9900;
+    border-top: 1px solid #ff9900;
+    line-height: 20px;
+    margin: 0 0 15px;
+    padding: 10px 20px;
+}
+
+.pos-reports .date-to, .pos-reports .date-from{
+    float:left;
+    margin-left: 5px;
+    width: 31%;
+}
+
+.pos-reports .cross{
+    padding: 5px 0px 0px 5px;
+    float:left;
+}
+
+.pos-reports .form-filter-options{
+	width: 100%;
+}
+
+.pos-reports input[readonly], .pos-reports select{
+    background: #fff !important;
+}
+
+.pos-reports .ardp-date-picker input[disabled] {
+	background: #eee !important;
+}
+
+.pos-reports .ardp-date-picker input[readonly], .pos-reports .ardp-date-picker input[disabled]{
+    cursor: default !important;
+}
+
+.pos-reports .form-date-actions{
+    clear:both;
+    padding-top: 15px;
+}
+.pos-reports .modules_box {
+    list-style: none;
+    padding: 5px 0 0 1px;
+}
+
+.pos-reports .ardp-date-picker input[type="text"]{
+    width: 100%;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.pos-reports .ardp-date-picker input[type="text"]:focus {
+    outline: 0 none;
+}
+
+.pos-reports .modules_box .current-module{
+    color: #FFF;
+    padding: 4px 6px 7px 6px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.pos-reports ul.dropdown-menu {
+    margin-left: -2px;
+    top: 23px;
+}
+.pos-reports .modules_box .current-module:hover{
+    background-color: #00aff0;
+    cursor: pointer;
+}
+.pos-reports .btn-default {
+    margin-top: 1px;
+    background-color: #666666;
+    border: none;
+    padding: 5px 8px 6px 8px;
+    color: #FFF;
+}
+.pos-reports .icon-caret-down{
+    color: #FFF !important;
+}
+.pos-reports .form-group {
+    margin-bottom: 0px;
+}
+.pos-reports .btn-default:focus {
+    background-color: #666666;
+    color: #FFF;
+}
+
+.reports-content {
+    background-color: #FFF;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+
+.pos-reports .btn:focus, .pos-reports .btn:active:focus, .pos-reports .btn.active:focus{
+    outline: none;
+}
+
+@media only screen and (min-width: 1890px) {
+    .pos-reports .row-padding-top{
+        width: 23%;
+    }
+	.page-sidebar-closed .pos-reports .row-padding-top {
+		width: 23%;
+	}
+    
+}
+
+@media only screen and (max-width: 1350px) {
+    .pos-reports .row-padding-top{
+        width: 34%;
+    }
+    
+}
+
+@media only screen and (max-width: 1120px) {
+    .pos-reports .row-padding-top{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+	.pos-reports .row-padding-top{
+        width: 45%;
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+    .pos-reports .row-padding-top{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 650px) {
+    .pos-reports .row-padding-top{
+        width: 80%;
+    }
+    
+    .pos-reports .row-padding-top .date-from{
+        padding-top: 10px;
+        width: 60%;
+        margin-left: 0px;
+    }
+    
+    .pos-reports .row-padding-top .date-to{
+        padding-top: 0px;
+        width: 60%;
+        margin-left: 0px;
+    }
+   
+    .pos-reports .select_duration {        
+        width: 60%;
+    }
+    
+    .pos-reports .row-padding-top .cross{
+        width: 80%;
+        display: block;
+        padding: 0px;
+    }
+	
+    .page-sidebar-closed .pos-reports .row-padding-top {
+        width: 55%;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .pos-reports .row-padding-top{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .pos-reports .row-padding-top{
+        width: 80%;
+        top: 60px;
+    }
+    
+    .pos-reports .row-padding-top .date-from{
+        padding-top: 10px;
+        width: 60%;
+        margin-left: 0px;
+    }
+    
+    .pos-reports .row-padding-top .date-to{
+        padding-top: 0px;
+        width: 60%;
+        margin-left: 0px;
+    }
+   
+    .pos-reports .select_duration {        
+        width: 60%;
+    }
+    
+    .pos-reports .row-padding-top .cross{
+        width: 80%;
+        display: block;
+        padding: 0px;
+    }
+}

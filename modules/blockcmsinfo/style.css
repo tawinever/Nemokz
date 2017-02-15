@@ -1,0 +1,8 @@
+.store-map{
+    display: block;
+    width: 100vw;
+    margin-top: 30px;
+    margin-left: calc(50% - 50vw);
+    padding: 0 10px;
+    margin-bottom: -50px;
+}

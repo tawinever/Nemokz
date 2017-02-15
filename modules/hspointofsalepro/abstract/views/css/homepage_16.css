@@ -1,0 +1,104 @@
+/* iPads ----------- */
+@media (max-width : 1024px)
+{
+    .discount_order_input, .discount_name
+    {
+        width: 65%;
+    }
+    .discount_order_button
+    {
+        width: 35%;
+    }
+    .block_discount .discount_amount,
+    .block_discount .order_discount_error {
+        padding-right: 35%;
+    }
+    .pos_order_discount_type
+    {
+        width: 65% !important;
+    }
+    .pos_order_discount
+    {
+        width: 30% !important;
+    }
+}
+
+/* small desktops and laptops ----------- */
+@media only screen
+and (min-width : 1024px)
+{
+    .discount_order_input, .discount_name
+    {
+        width: 70%;
+    }
+    .discount_order_button
+    {
+        width: 30%;
+    }
+    .block_discount .discount_amount,
+    .block_discount .order_discount_error {
+        padding-right: 30%;
+    }
+    .pos_order_discount_type
+    {
+        width: 60% !important;
+    }
+    .pos_order_discount
+    {
+        width: 35% !important;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+    .discount_order_input, .discount_name
+    {
+        width: 75%;
+    }
+    .discount_order_button
+    {
+        width: 25%;
+    }
+    .block_discount .discount_amount,
+    .block_discount .order_discount_error {
+        padding-right: 25%;
+    }
+    .pos_order_discount_type
+    {
+        width: 54% !important;
+    }
+    .pos_order_discount
+    {
+        width: 43% !important;
+    }
+
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+    .discount_order_input, .discount_name
+    {
+        width: 83%;
+    }
+    .discount_order_button
+    {
+        width: 17%;
+    }
+    .block_discount .discount_amount, 
+    .block_discount .order_discount_error {
+        padding-right: 17%;
+    }
+    .pos_order_discount_type
+    {
+        width: 54% !important;
+    }
+    .pos_order_discount
+    {
+        width: 44% !important;
+    }
+}
+.right_block .table tbody > tr > td{
+    line-height: 180%;
+}

@@ -1,0 +1,370 @@
+## Version 2.4.2 08-19-2016
+ - [Fixed] Cannot display product images if watermark is enabled for logged -in customers
+ - [Fixed] Prices are not the same in multiple currency circumstance
+ - [Fixed] Wrong discount applied to product whose combinations has impact price
+ - [Fixed] Delete specific prices accidentially
+ - [Fixed] Avoid NULL message when adding a payment
+ - [Changed] Only close side -bar menu in New sale page
+ - [Changed] Display cron URLs in plain text
+ - [Changed] Mark customers as logged
+ - [Changed] Speed up "New sale" page
+ - [Changed] Billing address & invoice address is formatted incorrectly
+ - [Changed] French translation for v2.4.1, thanks to Eric Paul
+ - [Added] Exclude RockPOS orders from Back office > Orders
+ - [Added] Guide to set up indexing cron in crontab and PHP
+ - [Added] An option to use PrestaShop invoice template instead
+ - [Added] Add option: Auto indexing
+ - [Added] Pick up combination upon selecting a product
+ - [Added] Clear cache after installing / upgrading
+ 
+## Version 2.4.1 6-30-2016
+ - [Added] Display discounts (if any) in invoice / receipt
+ - [Added] New page of reports
+ - [Added] Introduce hook "actionPosCancelOrder"
+ - [Added] Possibility to change product's price
+ - [Changed] Rename MySQL tables to "pos_"
+ - [Changed] Make the text "Show note on receipt / invoice" clickable
+ - [Removed] Do not ask when starting another transaction
+ - [Fixed] Prevent specific prices from being deleted accidentally by PrestaShop
+ - [Fixed] Cannot add out-of-stock product using barcode scanner
+ - [Fixed] Sold items removed twice from Advanced stock management (PS1.6.0.8 or older)
+ - [Fixed] Receipt margin is not taken into account
+ - [Fixed] DbQuery::type() is undefined in PrestaShop 1.6.0.x
+ - [Fixed] "Search for guests" does not work
+ - [Fixed] Do not search for inactive customers
+ - [Fixed] Can not print invoice in some custom PrestaShop installation
+ - [Fixed] Order discount does not work if a product restricted discount is applied previously
+ - [Fixed] Missing order discount types
+ - [Fixed] Cannot set default carrier
+ - [Fixed] Default carrier is wrong if that carrier is updated via back office
+ 
+## Version 2.4.0 5-15-2016
+ - [Added] Ability to override invoice / receipt in BO theme
+ - [Added] Ability to set default type of discount for order
+ - [Added] New payment method: Installment
+ - [Changed] French translations
+ - [Removed] Remove message "POS - by ..."
+ - [Fixed] Product discount does not work in multistore environment
+ - [Fixed] Cannot add product with barcode if the first combination is out of stock
+ - [Fixed] Cannot search with barcode when product-autocomplete is focused
+ - [Fixed] Only apply free shipping if it's enabled by default
+ - [Fixed] Default carrier is not taken in a new transaction
+ - [Fixed] Cannot type a keyword to search for items
+ - [Fixed] Cannot load custom js file
+
+## Version 2.3.16 4-22-2016
+ - [Changed] Flush JS cache after upgrading to a newer version
+ - [Changed] Display company name and phone along with customer search
+ - [Added] Ability to add address with company + VAT number
+ - [Added] Ability to sort payment methods
+ - [Added] Portuguese-Brazilian translation
+ - [Added] Add customer B2B fields (company, siret, ape, website)
+ - [Fixed] Accept free order
+
+## Version 2.3.15 4-11-2016
+ - [Fixed] mb_string() is undefined
+ - [Fixed] Can not uncheck / check on Product Visibility > Search only
+ - [Added] Publish addon "Sell custom products"
+ - [Added] Publish addon "Sales commission"
+ - [Changed] Search with mixed barcode (letters and digits)
+
+## Version 2.3.14 4-4-2016
+ - [Fixed] Can't save cart due to NULL values
+ - [Changed] Many changes in architecture
+ - [Changed] Convert tables to CHARSET utf-8
+
+## Version 2.3.13 3-22-2016
+ - [Changed] Display 'incompleted orders' associated with selected shop
+ - [Changed] Capture errors when cookie expires
+ - [Fixed] Apply automatic discount rules on POS cart
+ - [Fixed] Don't generate random values for some address fields
+ - [Added] New field: social titles when creating new customer
+
+## Version 2.3.12 3-13-2016
+ - [Fixed] Can not search if a product's visibility is set to "search"
+ - [Fixed] Wrong unit price in Invoice
+ - [Fixed] Always show delivery address on invoice
+ - [Fixed] Wrong amount due after adding new payment for 'incompleted' orders
+ - [Fixed] Multi-stores - Option "Product visibility for sale" does not work properly
+ - [Fixed] Remove automatically changed default customer group to POS customer to avoid discounts on customer's group issues
+ - [Added] Possibility change invoice orientation (landscape or portrait)
+ - [Added] Option to verify barcode when searching/scanning
+ - [Added] Possibility to override css, js in BE theme
+
+## Version 2.3.11 2-27-2016
+ - [Added] Show confirmation popup when adding payment in "Incomplete orders" 
+ - [Fixed] Error when searching with reference contains - letter 
+ - [Changed] Update translation for Danish (70% completed)
+ - [Changed] Verify UPC and EAN-13 code
+
+## Version 2.3.10 2-19-2016
+ - [Added] Implement an option to turn on/off searching for guest customers 
+ - [Added] New paper size - Letter - for invoice 
+ - [Added] Allow uploading custom logos for receipt/invoice 
+ - [Fixed] Pdf generator conflicts with module "PrestaShop Invoice Builder" 
+ - [Fixed] Fix conflict issue with module "Darique"
+ - [Changed] Improve behavior for alert: The item is not available
+
+## Version 2.3.9 2-3-2016
+ - [Added] Add Autoload to improve performance
+ - [Fixed] Do not get orders for dashboard based on invoice state
+ - [Fixed] Cannot create an manual order with customer added by RockPOS
+
+## Version 2.3.8 1-30-2016
+ - [Fixed] Use invoice number instead of order ID in invoice
+ - [Fixed] Receipt is split into 2 pages
+ - [Fixed] Cannot search shared customers in case logging in with non-super-admin-role accounts
+ - [Added] Option to choose whether to display shop name on invoice and receipt or not
+ - [Added] Show payment date on invoice
+ - [Changed] Remove option "Print Invoice"
+ - [Fixed] Show prices with or without tax in invoice/receipt based on PrestaShop configuration
+ - [Fixed] Missing payment info on invoice/receipt when adding a new payment in "Incompleted orders"
+ - [Added] Show guideline for option "Enable guest checkout"
+
+## Version 2.3.7 1-22-2016
+ - [Changed] Rearrange payment and given amount on receipt
+ - [Added] Option "Print sales receipt automatically"
+ - [Added] Show Change / Returned amount in Summary page
+ - [Added] Show remaining amount (amount due) on invoice
+ - [Added] Allow customer to order out of stock products without depending on PrestaShop setting
+ - [Added] Keep all tables & settings when uninstalling POS
+ - [Added] Option to adjust paper margin for receipt
+
+## Version 2.3.6 1-15-2016
+ - [Fixed] Don't show payment method on invoice
+ - [Fixed] Error when upgrading module from v2.3.2
+ - [Fixed] Show unit price without discount or any specific rule in summary page
+ - [Fixed] Always show product name on search result popup
+ - [Fixed] Change text UBC to UPC on preference page
+ - [Fixed] Order contains products belong to different warehouses doesn't show on 'completed orders' list
+ - [Fixed] Missing products in receipt when basket contains several products belong to different warehouses
+ - [Fixed] Print invoice/receipt in case order contains products belong to different warehouses (for each warehouse, PrestaShop creates a separated order)
+ - [Changed] Update translation texts for Greek, thanks to Giannis
+ - [Changed] Update translation texts for Dutch, thanks to Michel Bos
+ - [Changed] Migrate old POS orders into POS dashboard
+
+## Version 2.3.5 1-8-2016
+ - [Fixed] Wrongly display included/excluded tax information
+ - [Fixed] Missing combination info on receipt when product name contains letter -
+ - [Fixed] Error on setting up a new customer group for POS when installing the module
+ - [Fixed] Fix Incorrect stock syncing on version PrestaShop 1.6.0.9
+ - [Fixed] Cannot add product to RockPOS when minimum quantity equal to 0
+ - [Fixed] Missing order payment information due to conflict with module modrefchange
+ - [Fixed] Does not show price included tax on product summary table  - invoice template
+ - [Fixed] Empty popup when clicking on view button in Incompleted Orders
+ - [Fixed] Show invoice prefix based on shop ID
+ - [Fixed] [Dashboard] total net profit is incorrect
+
+## Version 2.3.4 12-18-2015
+ - [Fixed] Error message 'No internet connection' is shown in wrong case
+ - [Changed] Update new translation for Dutch
+ - [Changed] Applying discount for the product which already has default discounts
+ - [Changed] Redesign home page (New sales) for POS
+ - [Changed] Separate print setting for invoice & receipt
+ - [Changed] Update layout for printed invoice
+ - [Added] Dashboard with simple report functions
+
+## Version 2.3.3 12-3-2015
+- [Added] A separated printer setting for Receipt
+- [Fixed] Searching for customer in Multistores - does not work with "share customers" feature
+- [Fixed] Duplicate Partial order status when reset module
+- [Fixed] Can't add payment shop
+- [Changed] Clear clarify error message
+- [Fixed] Print receipt invoice doesn't work on PrestaShop version < 1.6.1.1
+- [Fixed] Doesn't show product name on search result for some cases
+- [Fixed] Remove js to load category tree on Payment setting page
+- [Fixed] Miss function getFieldsRequired in PrestaShop version < 1.6.1
+- [Fixed] Update discount doesn't work on PrestaShop version 1.6.1.2
+
+## Version 2.3.2 11-20-2015
+- [Added] New Print setting to allow select fields to show/hide on receipt/invoice
+- [Added] New Order setting to decide which order status will be available on 'New sale' page
+- [Added] New layout for receipt with a lot of improvements
+- [Changed] Use module configuration for sending email to customer instead of default PS setting
+- [Changed] Improve look & feel for partial payment & completed orders
+- [Changed] Send POS invoice to customers instead of default Prestashop invoice
+- [Fixed] Stock mismatched on PrestaShop version 1.5.x
+- [Fixed] Auto print sale receipt in case print invoice option is disabled
+- [Fixed] Make module fully compatible with js on Prestashop 1.5
+- [Fixed] Broken invoice layout A4 size when logo is too big
+
+## Version 2.3.1 11-16-2015
+ - [Fixed] Show error out of stock when adding product with minimal quantity is larger than 1
+ - [Fixed] Cannot edit customer's addresses
+ - [Fixed] Uncheck Home category
+## Version 2.3.0 11-9-2015
+ - [FEATURE] Support Partial payment
+ - [FEATURE] Allow to manage completed orders
+ - [FEATURE] Re-print invoice/receipt at anytime
+ - [IMPROVEMENT] Czech translation
+ - [BUG] Disable Complete Sale button when clicking on that to avoid sending multiple requests, then re-enable after finishing ajax request
+
+## Version 2.2.3 10-26-2015
+- [Fixed] Can not add address when add a new customer
+- [Fixed] Search customer based on a shop
+- [Fixed] Preference page breaks the layout
+- [Improvement] Display actually stock in product list
+- [Improvement] Add the first name, last name of employee into invoice
+- [Improvement] Move block adding custom note to top of page
+- [Improvement] Remove N/A at address of customer
+
+## Version 2.2.2 09-22-2015
+- [Improvement] Add formatting for money given & money return
+- [Improvement] Change style of invoice ticket
+- [Fixed] Stock is not synced correctly
+
+## Version 2.2.1 09-05-2015
+- [Improvement] Update translations in English, French, Spanish, German, Portuguese, Italian, Dutch
+
+## Version 2.2.0 08-05-2015
+- [Feature] Add a custom hook after block Filter by categories where showing Filter products by categories
+- [Feature] Add a new tab to show add-ons of module POS
+- [Feature] Support multi-shop for POS payment
+- [Improvement] Remove duplicate translation
+- [Improvement] Move hidden tabs to Point of sale pro
+
+## Version 2.1.1 08-02-2015
+- [Bug] Can not search for products in several stores
+- [Bug] Can not save product visibilities in Preferences page
+
+## Version 2.1.0 7-24-2015
+- [Bug] Do not show customer information when adding customer and refreshing
+- [Bug] Do not show combination when searching for products in inactive categories
+- [Bug] Do not show combination when searching for inactive products
+- [Bug] Searching for products using bar-code does not work
+- [Improvement] Support multiple shops in Preferences page
+
+## Version 2.0.0 7-22-2015
+- [Feature] Add 2 custom hooks on top and bottom of POS page
+- [Feature] Search for products in inactive categories
+- [Feature] Search for inactive products
+- [Feature] Work with cart rule
+- [Feature] Show a list of discounts
+- [Improvement] Stop supporting selling off-line products
+- [Improvement] Search for products in current shop
+
+## Version 1.12.2 7-16-2015
+- [Improvement] Be compatible with PrestaShop 1.6.1
+
+## Version 1.12.1 7-11-2015
+- [Improvement] Be compatible with PrestaShop 1.6.1
+
+## Version 1.12 7-9-2015
+- [Fixed] Welcome page is not removed when un-installing POS
+- [Feature] Support the first custom hooks in customer block
+- [Improvement] An ability to change default customer
+- [Improvement] An option to decide what to show in auto complete product search
+
+## Version 1.11.8
+- [Improvement] Displaying a confirmation before cancelling an order
+- [Improvement] An option to turn off sending email notification
+- [Improvement] Display carrier name and delivery on different lines
+- [Fixed] Stock is not synced correctly
+
+## Version 1.11.6
+- [Improvement] Do not show shipping on invoice if it's free
+- [Improvement] Customer's signature
+- [BUG] Invoice broken on A5 receipts
+- [Improvement] Translate Payment names
+- [Improvement] When searching for products, colour of items depends on its stock level
+- [Improvement] Showing id_product when searching for products
+- [Improvement] An ability to set order state while collect payment is off
+
+## Version 1.11.2
+- [Improvement] Change layout of PDF invoice
+- [Improvement] Email is optional when adding a new customer
+- [Fixed] Missing order in invoices
+
+## Version 1.11
+- [Feature] Work with product visibility
+- [Improvement] Set default carrier
+- [Improvement] Search for product with visibility as catalog only
+- [Improvement] Display price before discount on invoice
+- [Feature] Work with a thermal invoice printer 
+
+## Version 1.10 3-5/2015
+- [Improvement] Search for customers by address info
+- [Feature] Calculate change back money
+- [Improvement] Display product images on invoice
+- [Translation] Support multi language: EN, DE, EL, ES, FR, IT, NL, NZ, PL, PT
+
+## Version 1.9 2-27-2015
+- [Improvement] Add a customer quickly
+- [Improvement] Set total, discount with included tax
+- [Fixed] Can not save the option Print invoice automatically
+- [Fixed] Add an option to print invoice immediately
+- [Fixed] Tax in invoice is wrong
+- [Feature] Manage payments method
+- [Feature] Search for product with filter by category
+- [Improvement] Show product discount and order discount separately
+- [Improvement] Expand or collapse for several blocks
+- [Fixed] Addresses block is not shown
+
+## Version 1.8 12-29-2014
+- [Fixed] Missing POS icon on the menu
+- [Fixed] HTML code is not escaped in invoice
+- [Fixed] Can not assign customer to cart in PS1.6
+- [Improvement] Collapse left menu when jumping into POS screen
+- [Feature] An ability to add note
+- [Improvement] An Disable sending emails to dummy customer
+- [Fixed] Can not add a new customer
+- [Feature] Changing combination
+- [Improvement] Add Credit Card as new payment method
+
+## Version 1.7 12-22-2014
+- [Feature] Set shipping status 
+- [Feature] And option to stop collecting payment
+- [Improvement] Discount information is confusing in the invoice
+- [Improvement] Auto focus on product search by default
+- [Fixed] Disabling PDF generation prevents POS from working
+- [Improvement] Maintain order of products in basket
+- [Fixed] Break shipping function at front office
+
+## Version 1.6 11-14-2014
+- [Feature] Support bar-code scanner
+
+## Version 1.5 11-12-2014
+- [Feature] Enable guest checkout
+- [Improvement] Display stock level when searching for products
+- [Improvement] Set free shipping by default
+- [Improvement] Re-organize invoice template
+- [Fixed] Wrong behaviour when clicking on button New order
+- [Fixed] Missing product name in search result
+
+## Version 1.4 10-22-2014
+- [Fixed] Order discount is removed when changing products in cart
+- [Fixed] Not show discount in receipt
+- [Fixed] Can not print PDF invoice
+- [Improvement] Work well with specific prices
+- [Fixed] Enable POS shop after enabling selling off-line products
+- [Fixed] Disabling shops is not stable
+- [Improvement] Support free shipping
+- [Feature] Add special discount for a product
+- [Improvement] Show currency with unit price
+- [Improvement] Remove ISO code from currency options
+
+
+## Version 1.3 7-16-2014
+- [Improvement] View added products in a new tab
+- [Fixed] Tax is wrong when assigning a customer
+- [Fixed] Can not change quantity of products
+- [Feature] Support multi currency
+- [Feature] Support multi store
+- [Improvement] Responsive layout
+
+
+## Version 1.2 4-19-2014
+- [Feature] Support selling off-line products
+- [Fixed] Product search does not work properly in PS1.6
+
+## Version 1.1 12-19-2013
+- [Feature] Show order summary
+- [Improvement] Display cart summary
+- [Feature] Accept guest customer
+- [Improvement] Payment - Multiple payments
+- [Feature] Change product quantity
+- [Improvement] Display custom info
+- [Feature] Cancel order
+- [Improvement] Search for customer
+- [Improvement] Search for products
+- [Improvement] Receipt after completing sale

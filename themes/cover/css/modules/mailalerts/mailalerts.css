@@ -1,0 +1,23 @@
+#mailalerts_block_account li.last_item {
+  border-bottom: none;
+  margin-bottom: 0; }
+#mailalerts_block_account li .products-block-image {
+  float: left;
+  margin-right: 19px; }
+#mailalerts_block_account li .remove {
+  float: right; }
+  #mailalerts_block_account li .remove i {
+    cursor: pointer; }
+
+  .mailalert-cta-btn {
+    border: 3px solid #333;
+    padding: 11px;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .mailalert-cta-btn:hover {
+    border-color: rgb(210,0,0);
+  }
+/*# sourceMappingURL=mailalerts.css.map */

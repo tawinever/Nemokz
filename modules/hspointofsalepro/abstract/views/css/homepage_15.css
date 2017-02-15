@@ -1,0 +1,84 @@
+/*GENERAL STYLES **********************************************/
+.show_block .icon-expand-alt
+{
+    background: url('../img/more.png') no-repeat scroll 0 2px #1abc9c;
+    padding: 0 14px 0 0;
+}
+.show_block .icon-collapse-alt
+{
+    background: url('../img/less.png') no-repeat scroll 0 2px #1abc9c;
+    padding: 0 14px 0 0;
+}
+#delivery_option
+{
+    padding: 5px 0;
+}
+.block_shipping label.lable_delivery_option
+{
+    padding-bottom: 5px;
+}
+#order_detail_content td input.product_discount
+{
+    height: 17px;
+}
+.pos_container .table tr td.cart_quantity
+{
+    padding-top: 14px;
+}
+td.cart_quantity #cart_quantity_button a
+{
+    height: 12px !important;
+}
+select.pos_reduction_type
+{
+    position: relative;
+    top: 1px;
+    right: 0px;
+}
+.block_addresses select
+{
+    padding: 5px;
+    width: 130px;
+}
+#container_category_tree {
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+.tree-panel-label-title {
+    margin-bottom: 10px;
+}
+.right_block .info{
+    background: none !important;
+    border: none;
+    padding: 0;
+}
+.order_history a{
+    color: #00aff0;
+}
+.discount_order_input, .discount_name
+{
+    width: 75%;
+}
+.discount_order_button
+{
+    width: 23%;
+    padding-left: 0px;
+    float: right !important;
+}
+.pos_order_discount_type, .current_payment_amount
+{
+    width: 54% !important;
+    font-weight:bold;
+    color:#000076;
+
+}
+.pos_order_discount {
+    width: 38%;
+}
+.discount_name{
+    background: none;
+}
+.btn_apply_order_discount{
+    width: 100%;
+}

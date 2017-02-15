@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>ecm_feedback</name>
+	<displayName><![CDATA[Форма обратной связи]]></displayName>
+	<version><![CDATA[0.1]]></version>
+	<description><![CDATA[Добавляет простую форму обратной связи на сайт]]></description>
+	<author><![CDATA[Elcommerce]]></author>
+	<tab><![CDATA[emailing]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,147 @@
+/*GENERAL STYLES **********************************************/
+.disabled_checkbox{
+    opacity: 0.5;
+}
+.bootstrap .well{
+    padding: 19px 0 !important;
+}
+.image_size {
+    width: 249px !important;
+}
+
+.bootstrap .nav-tabs > li {
+    background: white none repeat scroll 0 0 !important;
+    border-radius: 5px 5px 0 0 !important;
+    float: left !important;
+    margin-bottom: -1px !important;
+    margin-right: 4px !important;
+    min-width: 80px;
+    text-align: center;
+}
+
+.bootstrap .nav > li > a, .bootstrap #header_notifs_icon_wrapper > li > a, .bootstrap #header_employee_box > li > a, .bootstrap #header_quick > li > a, .bootstrap #header_shop > li > a {
+    display: block !important;
+    padding: 10px 10px !important;
+    position: relative !important;
+}
+
+.bootstrap .nav-tabs > li > a {
+    border: 1px solid transparent !important;
+    border-radius:0 !important;
+    line-height: 1.42857 !important;
+    margin-right: 0px !important;
+}
+
+.bootstrap .nav-tabs > li.active a {
+    background:#3690A8 !important;
+    color: #fff;
+    border-radius: 5px 5px 0 0 !important;
+}
+
+.configuration-tab {
+    border-radius: 0px 4px 4px 4px !important;
+}
+
+#configuration_fieldset_receipt h2 {
+    margin-top: 0;   
+}
+#conf_id_POS_RECEIPT_FOOTER_TEXT{
+    padding-top: 35px;
+}
+
+#conf_id_POS_RECEIPT_AUTO_PRINT .col-lg-offset-3 {
+    margin-left: 25% !important;
+}
+#configuration_fieldset_receipt .group_fields {
+    width: 32%;
+    float:left;
+}
+
+.group_fields .col-lg-3 {
+    width: 70%;
+    font-weight: bold !important;
+    text-align: left !important;
+    padding-bottom: 5px;
+}
+
+#conf_id_receipt_info label {
+    font-weight: normal;
+    margin-right: 10px;
+}
+.order_info input{
+    margin: 0px 10px 0px 13px !important;
+}
+.cashier_id input {
+    margin: 0px 10px 0px 16px !important;
+}
+.cashier_name input {
+    margin: 0px 10px 0px 0px !important;
+}
+#conf_id_receipt_info .cashier_id {    
+    float: left;
+}
+#conf_id_receipt_info .cashier_name {    
+    float: left;
+}
+
+.cashier_info {
+    float:left;   
+}
+.cashier_info .checkbox{
+    display:inline-block;
+    padding-top: 0px !important;    
+}
+
+.cashier_info .checkbox input{        
+    margin: 0px 5px 0 22px !important;
+}
+
+#conf_id_change_store_link .help-block a{
+    text-decoration: underline;
+}
+
+#conf_id_change_store_link{
+    clear: both;
+}
+
+.order_info label, .cashier_id label {
+    width: 50px;
+}
+
+.bootstrap .nav-tabs > li.active a{
+    color:white !important;
+}
+
+#configuration_fieldset_receipt.bootstrap h3:not(.modal-title), #content.bootstrap .panel-heading {
+    margin: -5px -16px 15px !important;
+}
+
+#configuration_fieldset_receipt .disabled_checkbox {
+    margin: 0px;
+}
+
+#configuration_fieldset_receipt #conf_id_title_receipt_block {
+    padding-top: 50px;
+}
+
+#configuration_fieldset_receipt .panel-heading{
+    border: none !important;
+}
+
+#configuration_fieldset_receipt #conf_id_title_receipt_block .panel-heading{
+    border-bottom: 1px solid #eee !important;
+}
+#configuration_fieldset_receipt input.receipt_input{
+    width: 60px;
+    float: left;
+}
+/* For 720px or less */  
+@media screen and (max-width: 965px){  
+
+    #configuration_fieldset_receipt .group_fields {
+        width: 100%;        
+    }  
+}
+#conf_id_POS_INVOICE_LOGO .help-block, #conf_id_POS_RECEIPT_LOGO .help-block{
+    margin-top: -10px;
+}

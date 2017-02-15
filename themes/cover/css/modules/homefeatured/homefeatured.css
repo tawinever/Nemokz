@@ -1,0 +1,16 @@
+.r-homefeatured-title-container{
+    background-color: rgb(243,243,243) ;
+    margin-top: 20px ;
+    margin-bottom: 50px ;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+}
+.r-homefeatured-title-container h4 {
+    color: rgb(210,0,0);
+    font-size: 26px;
+    text-align: center;
+    padding: 25px 0;
+    letter-spacing: 3px;
+}
+
+/*# sourceMappingURL=homefeatured.css.map */

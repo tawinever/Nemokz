@@ -1,0 +1,14 @@
+.bootstrap .fixed-width-xxl_custom {
+    width: 200px !important;
+}
+
+.order .amount_due{
+    padding: 6px;
+    border: 1px solid #ccc;
+}
+
+.order .payment_method{
+    float: left;
+    width: 60%;
+    min-width: 110px;
+}

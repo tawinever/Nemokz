@@ -1,0 +1,13 @@
+.header_user_info {
+  padding-top: 20px;}
+  .header_user_info a {
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    }
+    @media (max-width: 479px) {
+      .header_user_info a {
+        font-size: 11px; } }
+/*# sourceMappingURL=blockuserinfo.css.map */

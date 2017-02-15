@@ -1,0 +1,40 @@
+#pos_dashboard #date-compare {
+    display:none;
+}
+.bootstrap #dashtrends_toolbar dl.actived#orders_report_tab {
+    background-color: #2ca121;
+    box-shadow: 0 0 0 2px #fff inset;
+    color: white;
+}
+.bootstrap #dashtrends_toolbar dl.actived#net_profits_report_tab {
+    background-color: #43459d;
+    box-shadow: 0 0 0 2px #fff inset;
+    color: white;
+}
+.bootstrap #report_dashboard dl {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    margin: 0;
+    min-height: 70px;
+    padding: 10px;
+    text-align: center;
+}
+#report_dashboard #dashtrends_toolbar dl {
+    box-shadow: 0 0 0 2px #fff inset;
+}
+#report_dashboard #dashtrends_toolbar dl.actived#sales_report_tab {
+    background-color: #1777b6;
+    box-shadow: 0 0 0 2px #fff inset;
+    color: white;
+}
+#dashtrends_toolbar {
+    padding-bottom: 25px;
+}
+#pos_dashboard .report-tool-tip {
+    padding:5px; 
+    min-width: 120px;
+}
+#pos_dashboard .form-inline {
+    text-align: center;
+}

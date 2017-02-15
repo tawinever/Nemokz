@@ -1,0 +1,36 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{djvean13gen}prestashop>djvean13gen_3436ffc4d9c24ba3d5db71044ca8c980'] = 'Generación de códigos EAN13 e impresión de etiquetas';
+$_MODULE['<{djvean13gen}prestashop>djvean13gen_e86a4e200e6237e56df2606450ddba20'] = '¿Estás seguro de querer desinstalar?';
+$_MODULE['<{djvean13gen}prestashop>djvean13gen_4dc74c5ab6e4b638b2c7695d29becc07'] = 'Generador y Etiquetas';
+$_MODULE['<{djvean13gen}prestashop>djvean13gen_254f642527b45bc260048e30704edb39'] = 'Configuración';
+$_MODULE['<{djvean13gen}prestashop>djvean13gen_4da6ecb01ac47dde715526460e668077'] = 'Tipo de selección de producto';
+$_MODULE['<{djvean13gen}prestashop>djvean13gen_086247a9b57fde6eefee2a0c4752242d'] = 'Automática';
+$_MODULE['<{djvean13gen}prestashop>djvean13gen_e1ba155a9f2e8c3be94020eef32a0301'] = 'Manual';
+$_MODULE['<{djvean13gen}prestashop>djvean13gen_fb3794641264479fbeb4c8fef453eedb'] = 'Si uitlizas una pistola para códigos de barras (infrarrojos), escoge';
+$_MODULE['<{djvean13gen}prestashop>djvean13gen_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
+$_MODULE['<{djvean13gen}prestashop>djvean13gen_6a26f548831e6a8c26bfbbd9f6ec61e0'] = 'Ayuda';
+$_MODULE['<{djvean13gen}prestashop>configure_453d0a41cb670d97e6daac7cd3489f23'] = 'Generación de códigos EAN13 e impresión de etiquetas';
+$_MODULE['<{djvean13gen}prestashop>genean13_f4a44086e7289450620a8d9ccea6360a'] = 'Nuevo EAN13:';
+$_MODULE['<{djvean13gen}prestashop>genean13_ff52226e484151c7ca5043d8315203f4'] = 'Operaciones';
+$_MODULE['<{djvean13gen}prestashop>genean13_e7840441078eb0e59ff4c2fde0915fe3'] = 'Generar código EAN13';
+$_MODULE['<{djvean13gen}prestashop>genean13_0557fa923dcee4d0f86b1409f5c2167f'] = 'Volver';
+$_MODULE['<{djvean13gen}prestashop>header_936400f151ba2146a86cfcc342279f57'] = 'cash register';
+$_MODULE['<{djvean13gen}prestashop>header_8381bb5a5b92a798c7609291e943c003'] = 'GENERADOR Y ETIQUETAS';
+$_MODULE['<{djvean13gen}prestashop>label_49ee3087348e8d44e1feda1917443987'] = 'Nombre';
+$_MODULE['<{djvean13gen}prestashop>label_63d5049791d9d79d86e9a108b0a999ca'] = 'Referencia';
+$_MODULE['<{djvean13gen}prestashop>label_52eb5928a34db3e3da7ba52b0644273b'] = 'EAN13';
+$_MODULE['<{djvean13gen}prestashop>label_3601146c4e948c32b6424d2c0a7f0118'] = 'Precio';
+$_MODULE['<{djvean13gen}prestashop>label_2228ecab027b7f45936af13a3bfcbf17'] = 'Precio oferta';
+$_MODULE['<{djvean13gen}prestashop>label_694e8d1f2ee056f98ee488bdc4982d73'] = 'Cantidad';
+$_MODULE['<{djvean13gen}prestashop>stocks_d71bd8a0b6a6aa54edba64547c91a574'] = 'PRODUCTOS';
+$_MODULE['<{djvean13gen}prestashop>stocks_ced70c0eda6f014aab20390b462b300b'] = 'Buscar un producto por su código EAN13:';
+$_MODULE['<{djvean13gen}prestashop>stocks_694e8d1f2ee056f98ee488bdc4982d73'] = 'Cantidad';
+$_MODULE['<{djvean13gen}prestashop>stocks_1063e38cb53d94d386f21227fcd84717'] = 'Eliminar';
+$_MODULE['<{djvean13gen}prestashop>stocks_e79a0013c7387a7436d310fe283cc183'] = 'Mostrar más campos';
+$_MODULE['<{djvean13gen}prestashop>stocks_ff52226e484151c7ca5043d8315203f4'] = 'OPERACIONES';
+$_MODULE['<{djvean13gen}prestashop>stocks_c1ad8348c63d10557d31837dd15a5963'] = 'Generar etiquetas';
+$_MODULE['<{djvean13gen}prestashop>stocks_e7840441078eb0e59ff4c2fde0915fe3'] = 'Generar un código EAN13';
+$_MODULE['<{djvean13gen}prestashop>stocks_6f91497e017164d996d44df7dfc3fa05'] = 'Rellenar automáticamente el campo EAN13 de todos los productos';

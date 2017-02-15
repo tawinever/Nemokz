@@ -1,0 +1,52 @@
+.receipt ul, .receipt ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.receipt legend {
+    font-size: 16px;
+    padding: 5px 25px;
+    color: white;
+    background: #1ABC9C;
+}
+.receipt .control input.button {
+    background: #1ABC9C;
+    float: right;
+    padding: 8px 15px;
+    margin-left: 15px;
+    margin-top: 0;
+    border: none;
+    text-shadow: none;
+    color: #FFF;
+}
+.receipt .control input.new_order {
+    background: #E74C3C;
+}
+
+.order_payment_method, .invoicing {
+    width: 35%;
+    float: left;
+}
+
+.receipt .payment_method ul,
+.receipt .invoicing ul{
+    margin-left: 25px;
+}
+.receipt .list_products table
+{
+    width: 100%;
+}
+.receipt fieldset {
+    background-color: #FFF;
+    border: 1px solid #1ABC9C;
+    color: #585a69;
+    margin: 0 0 10px;
+    padding: 1em;
+}
+.list_products table td.total {
+    font-weight: bold;
+}
+.list_products table td.amount_due {
+    color: #E74C3C;
+}

@@ -1,0 +1,61 @@
+#opc-right-carrier-content, #opc-right-payment-content {
+		float: none;
+		width: 100%;
+		position: relative;
+	}
+
+#opc-left-content {
+	position:relative;
+	float:left;
+	width:30%;
+	padding:3px;
+}
+
+#opc-right-content {
+	position:relative;
+	float:left;
+	width:70%;
+	padding:3px;
+}
+
+@media (max-width: 1024px) {
+	#opc-right-carrier-content, #opc-right-payment-content {
+		float: none;
+		width: 100%;
+		position: relative;
+	}
+}
+
+@media (max-width: 960px) {
+	#opc-left-content, #opc-right-content {
+		position: relative;
+		float: none;
+		width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+	.ddcl, .zag td:first-child, .cart_product{
+		display:none;
+	}
+}
+
+@media (max-width: 320px) {
+	.ddcl, .delivery_option_logo, .payment_image{
+		display:none;
+	}
+	
+	input#vouchercode{
+		width: 70%;
+	}
+}
+
+@media (max-width: 384px) {
+	.ddcl, .delivery_option_logo, .payment_image{
+		display:none;
+	}
+	
+	input#vouchercode{
+		width: 70%;
+	}
+}
